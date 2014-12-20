@@ -1,6 +1,6 @@
 [submodule "imageproc-lib"]
 	path = imageproc-lib
-	url = ../imageproc-lib.git
+	url = https://github.com/apullin/imageproc-lib.git
 [submodule "imageproc-settings"]
 	path = imageproc-settings
 	url = https://github.com/apullin/imageproc-settings.git
