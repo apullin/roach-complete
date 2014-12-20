@@ -7,6 +7,25 @@
       <logicalFolder name="imageproc-lib"
                      displayName="imageproc-lib"
                      projectFiles="true">
+        <itemPath>../imageproc-lib/adc_pid.h</itemPath>
+        <itemPath>../imageproc-lib/ams-enc.h</itemPath>
+        <itemPath>../imageproc-lib/at86rf231_driver.h</itemPath>
+        <itemPath>../imageproc-lib/bsp-ip25.h</itemPath>
+        <itemPath>../imageproc-lib/carray.h</itemPath>
+        <itemPath>../imageproc-lib/i2c_driver.h</itemPath>
+        <itemPath>../imageproc-lib/init_default.h</itemPath>
+        <itemPath>../imageproc-lib/mac_packet.h</itemPath>
+        <itemPath>../imageproc-lib/mpu6000.h</itemPath>
+        <itemPath>../imageproc-lib/payload.h</itemPath>
+        <itemPath>../imageproc-lib/ppool.h</itemPath>
+        <itemPath>../imageproc-lib/queue.h</itemPath>
+        <itemPath>../imageproc-lib/sclock.h</itemPath>
+        <itemPath>../imageproc-lib/spi_controller.h</itemPath>
+        <itemPath>../imageproc-lib/telem.h</itemPath>
+        <itemPath>../imageproc-lib/tih.h</itemPath>
+        <itemPath>../imageproc-lib/uart_driver.h</itemPath>
+        <itemPath>../imageproc-lib/utils.h</itemPath>
+        <itemPath>../imageproc-lib/version.h</itemPath>
       </logicalFolder>
       <logicalFolder name="lib" displayName="lib" projectFiles="true">
         <itemPath>../lib/cmd_const.h</itemPath>
@@ -18,8 +37,10 @@
         <itemPath>../lib/tests.h</itemPath>
         <itemPath>../lib/vr_telem.h</itemPath>
       </logicalFolder>
+      <logicalFolder name="f1" displayName="settings" projectFiles="true">
+        <itemPath>../imageproc-settings/settings.h</itemPath>
+      </logicalFolder>
       <itemPath>source/cmd.h</itemPath>
-      <itemPath>source/settings.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -74,6 +95,7 @@
     <Elem>../lib</Elem>
     <Elem>../../imageproc-lib</Elem>
     <Elem>../imageproc-lib</Elem>
+    <Elem>../imageproc-settings</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
