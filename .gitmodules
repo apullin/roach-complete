@@ -1,0 +1,3 @@
+[submodule "imageproc-lib"]
+	path = imageproc-lib
+	url = ../imageproc-lib.git
